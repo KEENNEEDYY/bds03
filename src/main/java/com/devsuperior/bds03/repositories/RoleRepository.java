@@ -3,9 +3,9 @@ package com.devsuperior.bds03.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.devsuperior.bds03.entities.Employee;
+import com.devsuperior.bds03.entities.Role;
 
 @Repository
-public interface EmployeeRepository extends JpaRepository<Employee, Long> {
-
+public interface RoleRepository extends JpaRepository<Role, Long> {
+    
 }
